@@ -85,9 +85,6 @@ img{
 .container-grid{
   margin:3rem auto;
   border-radius:0.5rem;
-
-  /* to make corners round, it is just a hack */
-  position:relative;
   overflow:hidden;
 }
 
@@ -105,11 +102,7 @@ img{
 
 
 .vehicle_card{
-
   max-width:300px;
-  /* no need specify the border-radius explicitly on cards */
-  position:relative;
-  z-index:-1;
   padding:2.5rem 3rem 1rem 2.5rem;
 }
 
